@@ -54,5 +54,11 @@
                 FontSize="20"
                 TextColor="#ACB1BB"/>
         </VerticalStackLayout>
+    
+        <CollectionView
+            Grid.Row="2"
+            ItemsSource="{Binding Profiles}"
+            VerticalOptions="Center">
+        </CollectionView>
     </Grid>
 </ContentPage>
