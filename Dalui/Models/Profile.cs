@@ -2,7 +2,7 @@
 
 public class Profile
 {
-    public string ProfileName { get; set; }
+    public string ProfileImage { get; set; }
 
     public string Name { get; set; }
 

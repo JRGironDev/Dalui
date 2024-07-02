@@ -54,11 +54,59 @@
                 FontSize="20"
                 TextColor="#ACB1BB"/>
         </VerticalStackLayout>
-    
+
         <CollectionView
             Grid.Row="2"
             ItemsSource="{Binding Profiles}"
             VerticalOptions="Center">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout ItemSpacing="10"
+                                   Orientation="Horizontal"/>
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid
+                        ColumnDefinitions=".35*, .65*"
+                        HeightRequest="60"
+                        WidthRequest="160">
+                        <RoundRectangle
+                            Grid.ColumnSpan="2"
+                            CornerRadius="45"
+                            Fill="#1F252A"/>
+                        <Border Grid.RowSpan="2"
+                                Margin="5, 0, 0, 0"
+                                HeightRequest="50"
+                                HorizontalOptions="Start"
+                                StrokeShape="RoundRectangle 80, 80, 80, 80"
+                                StrokeThickness="0"
+                                WidthRequest="50">
+                            <Image HeightRequest="50"
+                                   Source="{Binding ProfileImage}"/>
+                        </Border>
+                        <VerticalStackLayout
+                            Grid.Column="1"
+                            VerticalOptions="Center">
+                            <Label
+                                Margin="10, 0, 0, 0"
+                                FontFamily="NexaHeavy"
+                                HorizontalTextAlignment="Start"
+                                Text="{Binding Name}"
+                                VerticalTextAlignment="Center"
+                                TextColor="White"/>
+
+                            <Label
+                                Grid.Column="1"
+                                Margin="10, 0, 0, 0"
+                                FontFamily="NexaHeavy"
+                                FontSize="12"
+                                Text="{Binding NoPhotos, StringFormat='{0} pictures'}"
+                                TextColor="#869CBD"
+                                VerticalOptions="Start"/>
+                        </VerticalStackLayout>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
         </CollectionView>
     </Grid>
 </ContentPage>

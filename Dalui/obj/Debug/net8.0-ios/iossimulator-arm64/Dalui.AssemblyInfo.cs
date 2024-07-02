@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dalui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f6553e99031743b6bce8423f512d6791b12bd744")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+19287c3e9655eae5499bf8f6a7fd1c3e364b074c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dalui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dalui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
