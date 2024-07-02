@@ -37,13 +37,22 @@
             </Border>
 
         </Grid>
-    
-    <VerticalStackLayout Grid.Row="1" VerticalOptions="Center">
-        <Label
-            Text="Welcome, User!"
-            FontSize="24"
-            FontAttributes="Bold"
-            TextColor="#CACDD3"
-            VerticalOptions="Center"/>
+
+        <VerticalStackLayout
+            Grid.Row="1"
+            VerticalOptions="Center">
+            <Label
+                FontFamily="NexaHeavy"
+                Text="Create incredible universes"
+                FontSize="30"
+                TextColor="White"/>
+
+            <Label
+                FontFamily="NexaLight"
+                Margin="0, 10, 0, 0"
+                Text="Join your friends"
+                FontSize="20"
+                TextColor="#ACB1BB"/>
+        </VerticalStackLayout>
     </Grid>
 </ContentPage>
