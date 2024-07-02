@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/josequinonez/C#/MAUI/Dalui/Dalui/bin/Debug/net8.0-ios/iossimulator-arm64/Dalui.app/libSystem.Native.dylib
