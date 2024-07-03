@@ -334,4 +334,8 @@
 /Users/josequinonez/C#/MAUI/Dalui/Dalui/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/f/Nexa-ExtraLight.ttf
 /Users/josequinonez/C#/MAUI/Dalui/Dalui/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/f/Nexa-Heavy.ttf
 /Users/josequinonez/C#/MAUI/Dalui/Dalui/bin/Debug/net8.0-ios/iossimulator-arm64/PanCardView.dll
+/Users/josequinonez/C#/MAUI/Dalui/Dalui/bin/Debug/net8.0-ios/iossimulator-arm64/CommunityToolkit.Maui.dll
+/Users/josequinonez/C#/MAUI/Dalui/Dalui/bin/Debug/net8.0-ios/iossimulator-arm64/CommunityToolkit.Maui.Core.dll
+/Users/josequinonez/C#/MAUI/Dalui/Dalui/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/CommunityToolkit.Maui.Core.stamp
+/Users/josequinonez/C#/MAUI/Dalui/Dalui/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/CommunityToolkit.Maui.stamp
 /Users/josequinonez/C#/MAUI/Dalui/Dalui/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/PanCardView.stamp

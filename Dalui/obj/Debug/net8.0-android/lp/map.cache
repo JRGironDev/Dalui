@@ -160,3 +160,7 @@ Xamarin.Google.Crypto.Tink.Android.aar
 Xamarin.Google.ErrorProne.Annotations.aar
 PanCardView.dll
 PanCardView.aar
+CommunityToolkit.Maui.Core.dll
+CommunityToolkit.Maui.dll
+CommunityToolkit.Maui.Core.aar
+CommunityToolkit.Maui.aar
