@@ -35,7 +35,7 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid HeightRequest="50"
-                            WidthRequest="150">
+                          WidthRequest="150">
                         <RoundRectangle
                             CornerRadius="35"
                             Fill="#242529"/>
@@ -45,6 +45,50 @@
                             FontFamily="NexaLight"
                             Text="{Binding .}"
                             TextColor="White"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Label Grid.Row="2"
+               FontFamily="NexaHeavy"
+               Text="Choose a style of picture"
+               FontSize="20"
+               VerticalOptions="Center"
+               TextColor="White"/>
+
+        <CollectionView
+            Grid.Row="3"
+            ItemsSource="{Binding Styles}"
+            SelectionMode="Single">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout
+                    Orientation="Horizontal"
+                    ItemSpacing="10"/>
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Border StrokeShape="RoundRectangle 20, 20, 20, 20"
+                                StrokeThickness="0">
+                            <Image Source="{Binding ImageUrl}"/>
+                        </Border>
+                        <Label
+                            FontFamily="NexaHeavy"
+                            Text="{Binding Name}"
+                            TextColor="White"
+                            Margin="0,0,0,10"
+                            FontSize="15"
+                            HorizontalTextAlignment="Center"
+                            VerticalOptions="End"/>
+                        <Shadow>
+                            <Shadow
+                                Brush="Black"
+                                Opacity="1"
+                                Radius="1"
+                                Offset="5,5"/>
+                            </Label.Shadow>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
