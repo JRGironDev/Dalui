@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+             xmlns:proc="clr-namespace:PanCardView.Processors;assembly=PanCardView"
              x:Class="Dalui.Views.DashboardView"
              Title="DashboardView"
              BackgroundColor="#101216">
     <Grid Margin="25, 25, 0, 0"
-          RowDefinitions=".1*, .2*, .15*, .45*, .1*">
+          RowDefinitions=".1*, .2*, .10*, .55*, .1*">
         <Grid Margin="0, 0, 25, 0"
               ColumnDefinitions="*, *">
             <VerticalStackLayout VerticalOptions="Center">
@@ -96,7 +98,6 @@
                                 TextColor="White"/>
 
                             <Label
-                                Grid.Column="1"
                                 Margin="10, 0, 0, 0"
                                 FontFamily="NexaHeavy"
                                 FontSize="12"
@@ -108,5 +109,7 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+    
+        
     </Grid>
 </ContentPage>
