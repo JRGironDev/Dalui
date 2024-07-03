@@ -34,6 +34,7 @@
 /Users/josequinonez/C#/MAUI/Dalui/Dalui/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../Dalui.app/zh-Hans/Microsoft.Maui.Controls.resources.dll
 /Users/josequinonez/C#/MAUI/Dalui/Dalui/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../Dalui.app/zh-Hant/Microsoft.Maui.Controls.resources.dll
 /Users/josequinonez/C#/MAUI/Dalui/Dalui/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../Dalui.app/runtimeconfig.bin
+/Users/josequinonez/C#/MAUI/Dalui/Dalui/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../Dalui.app/PanCardView.dll
 /Users/josequinonez/C#/MAUI/Dalui/Dalui/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../Dalui.app/Microsoft.Extensions.Configuration.dll
 /Users/josequinonez/C#/MAUI/Dalui/Dalui/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../Dalui.app/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/josequinonez/C#/MAUI/Dalui/Dalui/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../Dalui.app/Microsoft.Extensions.DependencyInjection.dll

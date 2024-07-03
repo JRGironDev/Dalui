@@ -7,7 +7,7 @@
              Title="DashboardView"
              BackgroundColor="#101216">
     <Grid Margin="25, 25, 0, 0"
-          RowDefinitions=".1*, .2*, .10*, .55*, .1*">
+          RowDefinitions=".1*, .2*, .15*, .45*, .1*">
         <Grid Margin="0, 0, 25, 0"
               ColumnDefinitions="*, *">
             <VerticalStackLayout VerticalOptions="Center">
@@ -110,6 +110,28 @@
             </CollectionView.ItemTemplate>
         </CollectionView>
     
-        
+        <cards:CoverFlowView
+            Grid.Row="3"
+            Margin="-25, 0, 25, 0"
+            ItemsSource="{Binding GeneratedImages}"
+            PositionShiftValue="125">
+            <x:Arguments>
+                <proc:CoverFlowProcessor OpacityFactor="0.25" ScaleFactor=".75"/>
+            </x:Arguments>
+
+            <cards:CoverFlowView.ItemTemplate>
+                <DataTemplate>
+                    <Border StrokeShape="RoundRectangle 25, 25, 25, 25" StrokeThickness="0">
+                    <Grid RowDefinitions=".7*, .3*">
+                        <Image
+                            Grid.RowSpan="2"
+                            Aspect="AspectFill"
+                            Source="{Binding ImagePath}"/>
+                        
+                    </Grid>
+                    </Border>
+                </DataTemplate>
+            </cards:CoverFlowView.ItemTemplate>
+        </cards:CoverFlowView>    
     </Grid>
 </ContentPage>
