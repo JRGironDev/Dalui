@@ -103,5 +103,15 @@
                     BackgroundColor="#242529"
                     TextColor="White"/>
         </Border>
+
+        <Button Grid.Row="5"
+                BackgroundColor="#98C0FE"
+                CornerRadius="25"
+                FontFamily="NexaHeavy"
+                Text="Generate"
+                TextColor="Black"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="150"/>
     </Grid>
 </ContentPage>
