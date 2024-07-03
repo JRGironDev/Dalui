@@ -22,5 +22,32 @@
                 TextColor="#ACB1BB"/>
 
         </VerticalStackLayout>
+
+        <CollectionView
+            Grid.Row="1"
+            ItemsSource="{Binding Options}">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout
+                    Orientation="Horizontal"
+                    ItemSpacing="10"/>
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid HeightRequest="50"
+                            WidthRequest="150">
+                        <RoundRectangle
+                            CornerRadius="35"
+                            Fill="#242529"/>
+                        <Label
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            FontFamily="NexaLight"
+                            Text="{Binding .}"
+                            TextColor="White"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
     </Grid>
 </ContentPage>
