@@ -10,6 +10,7 @@ public partial class GenerationOptionsView : ContentPage
 		InitializeComponent();
 		FillOptions();
 		BindingContext = this;
+		
 	}
 
 	private void FillOptions()

@@ -82,16 +82,26 @@
                             FontSize="15"
                             HorizontalTextAlignment="Center"
                             VerticalOptions="End"/>
-                        <Shadow>
+                        <Label.Shadow>
                             <Shadow
                                 Brush="Black"
                                 Opacity="1"
                                 Radius="1"
                                 Offset="5,5"/>
-                            </Label.Shadow>
+                        </Label.Shadow>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+
+        <Border Grid.Row="4"
+                Margin="0, 15, 25, 0"
+                BackgroundColor="#242529"
+                StrokeShape="RoundRectangle 20, 20, 20, 20"
+                StrokeThickness="0">
+            <Editor Margin="5"
+                    BackgroundColor="#242529"
+                    TextColor="White"/>
+        </Border>
     </Grid>
 </ContentPage>
