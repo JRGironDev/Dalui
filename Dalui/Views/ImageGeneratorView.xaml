@@ -22,21 +22,23 @@
                     VerticalOptions="Center"/>
 
                 <Grid>
-                    <Border x:Name="borderTime"
-                            BackgroundColor="#E8FF8E"
-                            IsVisible="False"
-                            Opacity="0"
-                            Scale="1.1"
-                            StrokeShape="RoundRectangle 5, 5, 5, 5"
-                            StrokeThickness="0">
-                        <Label x:Name="timeLabel"
-                               FontFamily="NexaHeavy"
-                               Text="0"
-                               FontSize="20"
-                               TextColor="#101216"
-                               VerticalOptions="Center"
-                               HorizontalOptions="Center"/>
-                    </Border>
+                    <Border
+                        Grid.Row="1"
+                        x:Name="borderTime"
+                        BackgroundColor="#E8FF8E"
+                        IsVisible="True"
+                        Opacity="0"
+                        Scale="1.1"
+                        StrokeShape="RoundRectangle 5, 5, 5, 5"
+                        StrokeThickness="0"/>
+                    <Label
+                        x:Name="lblTime"
+                        FontFamily="NexaHeavy"
+                        Text="0"
+                        FontSize="20"
+                        TextColor="#ACB1BB"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"/>
                 </Grid>
 
                 <Label
@@ -60,7 +62,7 @@
 
         <Border
             x:Name="imageAnimation"
-            IsVisible="True"
+            IsVisible="False"
             Grid.Row="1"
             BackgroundColor="#E8FF8E"
             Opacity="0.9"
@@ -77,11 +79,10 @@
 
         <Button
             x:Name="btnFinish"
-            Clicked="btnFinish_Clicked"
             Grid.Row="2"
             Text="Finish"
             FontFamily="NexaHeavy"
-            Scale="0.1"
+            Scale="0"
             FontSize="25"
             BackgroundColor="#E8FF8E"
             TextColor="#101216"
