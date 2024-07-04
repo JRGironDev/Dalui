@@ -57,3 +57,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Dalui.Views.GenerationOptionsView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/GenerationOptionsView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/GenerationOptionsView.xaml
+
+[/Users/josequinonez/C\#/MAUI/Dalui/Dalui/Views/ImageGeneratorView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Dalui.Views.ImageGeneratorView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/ImageGeneratorView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/ImageGeneratorView.xaml
