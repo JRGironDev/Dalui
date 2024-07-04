@@ -6,5 +6,38 @@
              BackgroundColor="#101216">
     <Grid Margin="25, 25, 0, 0"
           RowDefinitions=".2*, .6*, .2*">
+        <VerticalStackLayout VerticalOptions="Center">
+            <Label FontFamily="NexaHeavy"
+                   Text="Picture&#10;generated"
+                   FontSize="30"
+                   TextColor="White"/>
+
+            <Label Margin="0, 10, 0, 0"
+                   FontFamily="NexaLight"
+                   Text="Time spent 30 seconds"
+                   FontSize="20"
+                   TextColor="#ACB1BB"/>
+        </VerticalStackLayout>
+
+        <Border 
+            Grid.Row="1"
+            StrokeShape="RoundRectangle 20, 20, 20, 20"
+            StrokeThickness="0">
+            <Image Source="cartoon.jpg"
+                   Aspect="AspectFill"/>
+        </Border>
+
+        <Button Grid.Row="2"
+                Text="Finish"
+                FontFamily="NexaHeavy"
+                FontSize="25"
+                BackgroundColor="#E8FF8E"
+                TextColor="#101216"
+                CornerRadius="35"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                WidthRequest="250"
+                HeightRequest="75"/>
+        
     </Grid>
 </ContentPage>

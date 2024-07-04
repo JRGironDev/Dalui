@@ -164,3 +164,12 @@ CommunityToolkit.Maui.Core.dll
 CommunityToolkit.Maui.dll
 CommunityToolkit.Maui.Core.aar
 CommunityToolkit.Maui.aar
+SkiaSharp.dll
+SkiaSharp.Extended.UI.dll
+SkiaSharp.SceneGraph.dll
+SkiaSharp.Skottie.dll
+SkiaSharp.Views.Android.dll
+SkiaSharp.Views.Maui.Controls.dll
+SkiaSharp.Views.Maui.Core.dll
+SkiaSharp.Extended.UI.aar
+SkiaSharp.Views.Android.aar
